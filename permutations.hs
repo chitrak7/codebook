@@ -1,5 +1,5 @@
 -- perms
--- A haskell code to compute al permutations of a list.
+-- A haskell code to compute all permutations of a list.
 perms :: [a] -> [[a]]
 perms [] = [[]]
 perms (x:xs) = let y = perms xs
